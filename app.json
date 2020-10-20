@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shoppingcart/shoppingcart",
+    "pages/personal_info/personal_info",
+    "pages/demo/index"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "华工小商城",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#bfc1ab",
+    "selectedColor": "#000000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/_store.png",
+        "selectedIconPath": "image/store.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "iconPath": "image/_cart.png",
+        "selectedIconPath": "image/cart.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/personal_info/personal_info",
+        "iconPath": "image/_user.png",
+        "selectedIconPath": "image/user.png",
+        "text": "个人中心"
+      },
+
+      {
+        "pagePath": "pages/demo/index",
+        "iconPath": "image/_user.png",
+        "selectedIconPath": "image/user.png",
+        "text": "开发"
+      }
+    ]
+  }
+}
